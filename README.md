@@ -10,6 +10,7 @@
 - [Hardware](#hardware)
 - [Weekly Log](#weekly-log)
   - [Week 1 — January 22](#week-1--january-22)
+  - [Week 2 — January 29](#week-2--january-29)
 
 ---
 
@@ -68,4 +69,26 @@ Created bootable Linux USB drives from scratch using spare flash drives for use 
 
 ---
 
-*Last updated: January 22*
+### Week 2 — January 29
+
+#### Overview
+Installed Oracle VirtualBox on the Red Hat mini PC to enable virtualization. The intention is to run Ubuntu Linux Server inside a VM, allowing server processes to operate in the background isolated from the host OS.
+
+#### Virtualization Setup
+
+| Software | Guest OS | Status |
+|----------|----------|--------|
+| Oracle VirtualBox | Ubuntu Linux Server | Installed |
+
+#### Purpose
+Rather than running server processes directly on the Red Hat host, Ubuntu Server will run inside a VirtualBox VM. This keeps the host clean and allows the server environment to be managed, snapshotted, or rebuilt independently.
+
+#### Next Steps
+- [ ] Create and configure the Ubuntu Server VM
+- [ ] Install Ubuntu Linux Server ISO in VirtualBox
+- [ ] Configure VM networking
+- [ ] Begin setting up server processes inside the VM
+
+---
+
+*Last updated: January 29*
