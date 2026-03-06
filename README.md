@@ -11,6 +11,7 @@
 - [Weekly Log](#weekly-log)
   - [Week 1 — January 22](#week-1--january-22)
   - [Week 2 — January 29](#week-2--january-29)
+  - [Week 3 — February 5](#week-3--february-5)
 
 ---
 
@@ -91,4 +92,25 @@ Rather than running server processes directly on the Red Hat host, Ubuntu Server
 
 ---
 
-*Last updated: January 29*
+### Week 3 — February 5
+
+#### Overview
+Created a virtual machine running Oracle Linux inside VirtualBox. Ran into issues during both installation and storage provisioning, but resolved them through troubleshooting. The VM is now fully operational.
+
+#### Issues & Resolutions
+
+| Issue | Resolution |
+|-------|------------|
+| Installation problems during VM setup | Resolved through troubleshooting *(document specific fix)* |
+| Problems provisioning storage space for the VM | Resolved through troubleshooting *(document specific fix)* |
+
+#### Outcome
+A working Oracle Linux virtual machine is up and running inside VirtualBox on the Red Hat host.
+
+#### Next Steps
+- [ ] Document the specific installation and provisioning fixes for future reference
+- [ ] Begin configuring the Oracle Linux VM for its intended workload
+
+---
+
+*Last updated: February 5*
